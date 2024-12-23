@@ -1,7 +1,10 @@
+// Import plugins using ES Module syntax
+import flowbite from 'flowbite/plugin';
+import flowbiteTypography from 'flowbite-typography';
 const config = {
 	content: ['./src/**/*.{html,js,svelte,ts}', './node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}', './node_modules/flowbite-svelte-blocks/**/*.{html,js,svelte,ts}'],
   
-	plugins: [require('flowbite/plugin'), require('flowbite-typography')],
+	plugins: [flowbite, flowbiteTypography],
   
 	darkMode: 'class',
   
