@@ -5,7 +5,7 @@ export default defineConfig({
 	plugins: [sveltekit()],
 	build: {
 		rollupOptions: {
-		  external: ['pdf-lib']
+		  external: ['mammoth', 'pdf-lib']
 		}
 	  },
 	ssr: {
