@@ -142,6 +142,7 @@
   <main class="container mx-auto py-10 px-4 ">
 	<h1 class="text-3xl font-bold text-gray-900 mb-6">File Moderation</h1>
 	
+	
 		<TableSearch placeholder="Search" hoverable={true} bind:inputValue={searchTerm} {divClass} {innerDivClass} {searchClass} {classInput}> 
 	
 		<div slot="header" class="w-full md:w-auto flex flex-col md:flex-row space-y-2 md:space-y-0 items-stretch md:items-center justify-end md:space-x-3 flex-shrink-0">
