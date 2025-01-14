@@ -27,7 +27,7 @@
   </Section>
   
   <Section name="feature">
-    <HeroHeader h2Class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+    <HeroHeader class="max-w-screen-md mb-8 lg:mb-16" Class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white" pClass="text-gray-500 sm:text-xl dark:text-gray-400">
       <svelte:fragment slot="h2">Why Share2Teach?</svelte:fragment>
       <svelte:fragment slot="paragraph">
         Discover a platform designed to make education collaborative, accessible, and innovative. Here’s what sets us apart:
@@ -65,12 +65,12 @@
       </svelte:fragment>
       <svelte:fragment slot="h2">Benefits of Share2Teach</svelte:fragment>
       <List tag="ul" class="space-y-1 text-gray-500 dark:text-gray-400">
-        <Li>**Empowers Educators and Learners**: Facilitates the sharing of knowledge and resources, fostering a collaborative learning environment.</Li>
-        <Li>**Enhances Resource Accessibility**: Ensures high-quality educational materials are available to all, breaking down barriers to learning.</Li>
-        <Li>**Encourages Lifelong Learning**: Supports continuous education by making resources freely accessible and easy to use.</Li>
-        <Li>**Drives Innovation in Education**: Promotes the use of modern technologies and approaches to create impactful educational tools.</Li>
-        <Li>**Fosters Community Growth**: Builds a global network of educators and students, united by a shared commitment to learning.</Li>
-        <Li>**Supports Quality Assurance**: Moderation and feedback mechanisms ensure reliable and valuable content for users.</Li>
+        <Li>Empowers Educators and Learners: Facilitates the sharing of knowledge and resources, fostering a collaborative learning environment.</Li>
+        <Li>Enhances Resource Accessibility: Ensures high-quality educational materials are available to all, breaking down barriers to learning.</Li>
+        <Li>Encourages Lifelong Learning: Supports continuous education by making resources freely accessible and easy to use.</Li>
+        <Li>Drives Innovation in Education: Promotes the use of modern technologies and approaches to create impactful educational tools.</Li>
+        <Li>Fosters Community Growth: Builds a global network of educators and students, united by a shared commitment to learning.</Li>
+        <Li>Supports Quality Assurance: Moderation and feedback mechanisms ensure reliable and valuable content for users.</Li>
       </List>
     </Cta>
   </Section>
